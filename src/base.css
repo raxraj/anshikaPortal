@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto";
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.display-1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 0.4em;
+}
+
+.btn-lg {
+  padding: 16px 30px;
+  font-size: 16px;
+}
+
+.btn.btn-primary {
+  background-color: #00baf2;
+  border: 2px solid #00baf2;
+  border-radius: 50px;
+}
+.btn.btn-primary:hover {
+  border: 2px solid #00baf2;
+  color: #00baf2;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn.btn-outline-primary {
+  border: 2px solid #00baf2;
+  color: #00baf2;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #00baf2;
+  border: 2px solid #00baf2;
+  color: white;
+}
+
+.btn.btn-danger-box {
+  background-color: #dc3545;
+}
+.btn.btn-danger-box:hover {
+  background-color: #c82333;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-field {
+  font-size: 20px;
+  width: 80%;
+  padding: 1%;
+  border-radius: 0.4em;
+  border: none;
+  outline: none;
+}
+
+.input-field:focus {
+  outline: none;
+}
+.center {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-box {
+  margin-right: 35%;
+  margin-left: 35%;
+  text-align: center !important;
+}
+
+.heading-form {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #00baf2;
+}
+
+.success-message {
+  color: white;
+  background-color: lightseagreen;
+  padding: 10px;
+}
+
+.error-message {
+  color: white;
+  background-color: red;
+  padding: 10px;
+}
+
+.text-gray {
+  color: #808080;
+}
+.text-left {
+  text-align: left !important;
+  display: block;
+}
+.form-box a {
+  text-decoration: none;
+  color: #00baf2;
+}
+
+.body-form {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.body-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.body-form input[type="button"] {
+  background-color: #00baf2;
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+.body-form input[type="button"]:hover {
+  background-color: transparent;
+  color: #00baf2;
+  border: 1px solid #00baf2;
+}
+.text-black {
+  color: #00baf2 !important;
+}
