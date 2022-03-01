@@ -14,8 +14,9 @@ class Login extends Component {
             message: ""
         }
     }
+
     login() {
-        axios.post('', {
+        axios.post('http://localhost:3002/auth/loginUser', {
             username: this.state.username,
             password: this.state.password
         })
@@ -37,6 +38,8 @@ class Login extends Component {
                 }
             })
     }
+
+ 
     render() {
         return (
             <div>
@@ -55,7 +58,7 @@ class Login extends Component {
                             {this.state.message}
                         </div> : ''}
                         <div className="body-form">
-                            <span htmlFor="username" className="text-gray text-left">Enter Cloud Developer's Username</span>
+                            <span htmlFor="username" className="text-gray text-left">Enter Username</span>
                             <input type="text"
                                 value={this.state.username}
                                 onChange={(e) => { this.setState({ username: e.target.value }) }}

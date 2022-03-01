@@ -13,6 +13,7 @@ class Home extends Component {
                         <div className="branding">
                             <img src={logo} alt="" height='50px' />
                         </div>
+                        
                         <div className="navbar">
                             <ul className='nav-list'>
                                 <li className='nav-link'>
@@ -33,7 +34,7 @@ class Home extends Component {
                     <div className="hero-section">
                         <div className="hero">
                             <div className="display-1">
-                                AdTech
+                                AdsTech
                                 <br />
                                 Cloud Developers Community
                                 <br />

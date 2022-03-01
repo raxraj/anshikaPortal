@@ -17,10 +17,9 @@ class Register extends Component {
         }
     }
     register() {
-        axios.post('', {
+        axios.post('http://localhost:3002/auth/registerUser', {
             username: this.state.username,
             password: this.state.password,
-            fullname: this.state.fullname,
             emailAddress: this.state.email,
         })
             .then(response => {

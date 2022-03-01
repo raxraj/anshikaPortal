@@ -2,6 +2,7 @@
 
 .landing {
   margin: 10%;
+  margin-bottom: 1%;
   margin-top: 1%;
 }
 nav {
@@ -16,6 +17,8 @@ nav {
   display: inline;
   float: left;
 }
+
+
 
 .nav-link a {
   display: block;
