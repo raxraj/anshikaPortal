@@ -6,3 +6,10 @@
     margin: 14% 0%;
   }
   
+.active {
+  border-bottom: 3px solid #00baf2 !important;
+  border-radius: 3px !important; 
+}
+.getFlexCharts{
+  display: flex;
+}
